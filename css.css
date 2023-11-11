@@ -1,0 +1,102 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 86%);
+}
+main {
+  max-width: 500px;
+  border-radius: 15px 15px 80px 15px;
+  padding: 30px;
+  width: 60%;
+  background-color: hsl(0, 0%, 100%);
+  -webkit-border-radius: 15px 15px 80px 15px;
+  -moz-border-radius: 15px 15px 80px 15px;
+  -ms-border-radius: 15px 15px 80px 15px;
+  -o-border-radius: 15px 15px 80px 15px;
+}
+.inps {
+  padding-right: 50px;
+  position: relative;
+  border-bottom: 1px solid hsl(0, 0%, 86%);
+  display: flex;
+  padding-bottom: 20px;
+}
+input {
+  width: 90%;
+  padding: 10px 10px;
+  border: 1px solid hsl(0, 0%, 86%);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+input:focus {
+  border: 1px solid hsl(259, 100%, 65%);
+  outline: none;
+  caret-color: hsl(259, 100%, 65%);
+}
+label > p {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: hsl(0, 1%, 44%);
+  font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+  main {
+    width: 90%;
+    position: relative;
+    bottom: 123px;
+  }
+}
+.res {
+  padding-top: 20px;
+  font-size: 51px;
+  font-weight: 800;
+  font-style: italic;
+}
+.res span {
+  color: hsl(259, 100%, 65%);
+}
+.btn:hover {
+  background-color: black;
+}
+.btn {
+  cursor: pointer;
+  position: absolute;
+  bottom: -27px;
+  right: 0;
+  background-image: url(assets/images/icon-arrow.svg);
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
+  background-color: hsl(259, 100%, 65%);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.Proplem {
+  position: relative;
+  top: 5px;
+  transition: 0.3s;
+  opacity: 0;
+  font-size: 12px;
+  color: rgba(255, 0, 0, 0.362);
+  font-weight: 400;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
